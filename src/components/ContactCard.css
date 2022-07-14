@@ -1,0 +1,25 @@
+.item {
+  font-size: 0.7em;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(131, 131, 131);
+  border-top: 1px solid rgb(131, 131, 131);
+}
+.content {
+  margin: 0px 0;
+}
+.email {
+  font-size: 0.8em;
+}
+.trash-btn {
+  font-size: 1.3em;
+  color: orangered;
+  width: 30px;
+}
+.trash-btn:hover {
+  cursor: pointer;
+  font-size: 1.4em;
+  transition: 200ms;
+}
